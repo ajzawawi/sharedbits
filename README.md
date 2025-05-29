@@ -92,7 +92,9 @@ npx sharedbits upgrade 1.0.0 --dry-run
 Example output:
 
 📝 Would write template to .babelrc
+
 📝 Would replace in src/index.js: "import ReactDOM" → "import { createRoot"
+
 🚫 Skipping codemods due to dry-run
 
 ---
@@ -127,13 +129,16 @@ test('Upgrade 1.0.0 adds Header if enabled', async () => {
 ```
 
 ✅ Automatically sets up Git for codemod safety
+
 ✅ Supports .platform config per test
+
 ✅ Fully isolated via temporary folders
 
 ---
 
 ## 🧬 Built For
 Developer platforms managing 1+ features
+
 Teams standardizing infrastructure, packages, and configs
 
 ---
