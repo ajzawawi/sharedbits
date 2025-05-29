@@ -1,14 +1,22 @@
 {
-  "name": "sharedbits-cli",
+"name": "sharedbits",
   "version": "1.0.0",
+  "description": "A CLI tool for automating project upgrades with templates and codemods",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "bin": {
+    "sharedbits": "./bin/sharedbits.js"
+  },
+  "keywords": ["cli", "codemod", "upgrade", "automation", "scaffolding"],
+  "author": "AJ Zawawi",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "src",
+    "templates"
+  ],
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^14.0.0",
